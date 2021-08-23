@@ -1,8 +1,11 @@
 Code to test various clocks under Linux (and OSX)
 =======================================
 
+Ref: [Clock Sources in Linux](http://btorpey.github.io/blog/2014/02/18/clock-sources-in-linux/)
+
 Run as:
-	taskset -c 1 ./clocks <cpu freq ghz> <output file>
+
+	taskset -c 1 ./clocks <cpu_freq_ghz> <output_file>
 
 Some quick notes on the code:
 

@@ -90,7 +90,7 @@ struct deltaT   {
 };
 
 
-
+extern "C" int print_clocks();
 
 
 int main(int argc, char** argv)
@@ -104,6 +104,9 @@ int main(int argc, char** argv)
       file = fopen(argv[2], "w");
    }
 
+   printf("Available clocks:\n");
+   print_clocks();
+   printf("\n\nClock Benchmarks:\n");
 
    vector<long>    timestamp;
    timestamp.resize(BUCKETS);

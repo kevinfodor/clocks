@@ -1,6 +1,9 @@
 Code to test various clocks under Linux (and OSX)
 =======================================
 
+Run as:
+	taskset -c 1 ./clocks <cpu freq ghz> <output file>
+
 Some quick notes on the code:
 
 -   The ClockTest.sh script compiles the code, and executes the test programs.

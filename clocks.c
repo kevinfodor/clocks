@@ -50,7 +50,7 @@ do { \
 
 
 
-int main(int argc, char** argv )
+int print_clocks()
 {
    printf("%25s\t%15s\t%15s\t%15s\n", "clock", "res (ns)", "secs", "nsecs");
 
